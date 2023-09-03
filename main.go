@@ -56,7 +56,7 @@ func main() {
 	varr := math.Round(sd / float64(len(arr)))
 	fmt.Println(int(varr))
 	fmt.Print("The Standard Deviation is: ")
-	sd = math.Ceil(math.Sqrt(sd / float64(len(arr))))
+	sd = math.Round(math.Sqrt(sd / float64(len(arr))))
 	fmt.Println(sd)
 
 }
