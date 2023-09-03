@@ -44,7 +44,6 @@ func main() {
 	fmt.Println(avr)
 	fmt.Print("The Median is: ")
 	if len(arr)%2 == 0 {
-		// fmt.Println(((arr[(len(arr)/2)-1]) + arr[(len(arr)/2)]) / 2)
 		mean = int(math.Ceil(float64((arr[(len(arr)/2)-1]) + (arr[(len(arr)/2)]))/2))
 	} else {
 		mean = int(math.Ceil(float64(arr[(len(arr)/2)])))
