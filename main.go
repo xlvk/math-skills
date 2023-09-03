@@ -55,7 +55,6 @@ func main() {
 	
 	sd = math.Round(math.Sqrt(sd / float64(len(arr))))
 	fmt.Println(sd)
-	
 
 }
 
